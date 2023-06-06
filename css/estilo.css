@@ -8,7 +8,7 @@ header {background-color: white;}
 .redes1 {width: 60px; height: 60px;padding:10px;}
 .redes2 {width: 60px; height: 60px;
 position: fixed;}
-.ppal-encabezado {display: flex;justify-content:space-between; flex-wrap:wrap;
+.ppal-encabezado {display: flex;justify-content:space-between;align-items: center;flex-wrap:wrap;
 background-color: white}
 .titulo {text-decoration: none;}
 .ppal-redes {margin: 10px;
@@ -21,8 +21,9 @@ border:2px solid;
 section {background-color: green;}
 aside {background-color: orange;}
 footer {background-color: white;}
-.base {display: flex;justify-content:space-between;flex-wrap:wrap;}
-.redes-bajo {display: flex;justify-content: space-between;}
+.base {display: flex;justify-content:space-between;align-items:center;flex-wrap:wrap;}
+.redes-bajo {display: flex;justify-content: space-between;align-items: center;}
+.datos {align-items:baseline;}
 .principal{font-size: xx-large}
 .principal {text-decoration: underline;}
 .titulocontacto {text-decoration: underline;}
