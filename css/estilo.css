@@ -1,28 +1,38 @@
+@font-face {
+  font-family:"gonzalo1";
+  src: url(../fuentes/centauro.ttf)
+  format("truetype");
+  }
 body { background-color: white;
   background-image: url(../imagenes/pan_3.jpg);
   background-size: contain;
 }
-header {background-color: white;display:flex;justify-content:space-between;flex-wrap:wrap;}
+header {background-color: white;display:flex;justify-content:space-between;flex-wrap:wrap;
+height:30vh;}
 .comunicate { position: fixed; bottom: 20px; right: 20px;}
 .logo-ppal {width: 150px; height: 110px;}
 .redes1 {width: 60px; height: 60px;padding:10px;}
 .redes2 {width: 60px; height: 60px;}
 .redes3 {display: flex;justify-content:space-between}
-.titulo {text-decoration: none;}
+.titulo {font-family:"gonzalo1";font-size: 3em;
+}
 nav {background-color: blue;
 margin: 35px;
 padding: 15px;
 border:2px solid;
 }
 section {background-color: green;}
+.panppal {width: 50vw; height:50vh;}
+.pansec {width: 50vw;height:50vh;}
+.contenedorpan {display:flex;justify-content:space-between}
 aside {background-color: orange;}
 footer {background-color: gray;display:flex;justify-content:space-around;align-items: center;flex-wrap:wrap;}
 .redes-bajo{display:flex;justify-content:space-between}
 .datos {align-items:baseline;}
-.principal{font-size: xx-large}
-.principal {text-decoration: underline;}
-.titulocontacto {text-decoration: underline;}
-.direccion {text-decoration: none;}
+.principal{font-size: 2em; font-family: 'Roboto', sans-serif;
+}
+.titulocontacto {text-decoration: underline; font-family: 'Roboto', sans-serif;}
+.direccion {text-decoration: none;font-family: 'Roboto', sans-serif;}
 p {text-align: center;}
 a {color: #FFFF00}
 img {width: 500px; height: 300px;)
