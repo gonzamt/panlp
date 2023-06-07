@@ -7,8 +7,7 @@ body { background-color: white;
   background-image: url(../imagenes/pan_3.jpg);
   background-size: contain;
 }
-header {background-color: white;display:flex;justify-content:space-between;flex-wrap:wrap;
-height:30vh;}
+header {background-color: white;display:flex;justify-content:space-between;flex-wrap:wrap;}
 .comunicate { position: fixed; bottom: 20px; right: 20px;}
 .logo-ppal {width: 150px; height: 110px;}
 .redes1 {width: 60px; height: 60px;padding:10px;}
