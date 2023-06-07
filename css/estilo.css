@@ -3,12 +3,10 @@ body { background-color: white;
   background-size: contain;
 }
 header {background-color: white;display:flex;justify-content:space-between;flex-wrap:wrap;}
+.comunicate { position: fixed; bottom: 20px; right: 20px;}
 .logo-ppal {width: 150px; height: 110px;}
 .redes1 {width: 60px; height: 60px;padding:10px;}
-.redes2 {width: 60px; height: 60px;
-position: fixed;
-bottom:0;
-right:0;}
+.redes2 {width: 60px; height: 60px;}
 .redes3 {display: flex;justify-content:space-between}
 .titulo {text-decoration: none;}
 nav {background-color: blue;
